@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cash Register</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -16,6 +18,41 @@
             <div class="label">Bill Amount : </div>
             <input type="number" id="billAmount">
             <button id="nextBtn">Next</button>
+        </div>
+
+        <div class="cashGivenInput">
+            <div class="label">Cash Given : </div>
+            <input type="number" id="cashGiven">
+            <button id="checkBtn">Check</button>
+        </div>
+        <div class="errorMsg"></div>
+
+        <div class="changeReturn">
+            <div class="label">Return Change : </div>
+            <div id="output">
+                <table>
+                    <tr>
+                        <th>No. of Notes</th>
+                        <td class="noOfNotes"></td>
+                        <td class="noOfNotes"></td>
+                        <td class="noOfNotes"></td>
+                        <td class="noOfNotes"></td>
+                        <td class="noOfNotes"></td>
+                        <td class="noOfNotes"></td>
+                        <td class="noOfNotes"></td>
+                    </tr>
+                    <tr>
+                        <th>Note</th>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </table>
+            </div>
         </div>
     </section>
 </body>
