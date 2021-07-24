@@ -14,7 +14,7 @@ body{
 
 .section{
     width: 100%;
-    max-width: 500px;
+    max-width: 600px;
     min-height: 200px;
     margin: auto;
     padding: 2rem 1rem;
@@ -48,6 +48,10 @@ button{
     background-color: var(--faint-blue);
     color: black;
     font-weight: bold;
+}
+
+#reset{
+    display: none;
 }
 
 .cashGivenInput{
@@ -88,4 +92,5 @@ table{
 
 th,td{
     word-wrap: break-word;
+    color: black;
 }
